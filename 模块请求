@@ -1,0 +1,5 @@
+//require()()不支持，请使用new操作符实例化对象。
+示例如下
+//const koa=require('koa')();TypeError: Class constructor Application cannot be invoked without 'new'
+const koa=require('koa');
+const app=new koa();
