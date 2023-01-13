@@ -3,3 +3,6 @@
 //const koa=require('koa')();TypeError: Class constructor Application cannot be invoked without 'new'
 const koa=require('koa');
 const app=new koa();
+const xx=require ('xxx').xx
+与const{xx}=require('xxx')等同
+
